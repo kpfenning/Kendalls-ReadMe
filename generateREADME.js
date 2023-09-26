@@ -1,3 +1,4 @@
+// function that returns badge of the license
 function licenseBadge(license) {
     if (license !== 'Unlicensed') {
         return `![badge](https://img.shields.io/badge/license-${license}-blue)`;
@@ -5,7 +6,7 @@ function licenseBadge(license) {
         return '';
     }
 }
-
+// function that returns the links to the license
 function licenseLink(license) {
     if (license !== 'Unlicensed') {
         return `[${license}](https://choosealicense.com/licenses/${license})`;
@@ -13,6 +14,7 @@ function licenseLink(license) {
         return '';
     }
 }
+// function that returns the license section
 function licenseSection(license) {
     if (license !== 'no license') {
     return `
@@ -26,8 +28,9 @@ function licenseSection(license) {
       return ' ';
     }
    }
-
-   function generateREADME(data) {
+// generates the template for the markdown file
+function generateREADME(data) {
+   
     return `
     # ${data.title}
 

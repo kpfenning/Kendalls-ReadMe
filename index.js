@@ -1,7 +1,9 @@
+//imports of needed packages and requires the generateREADME.js file
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateREADME = require('./generateREADME');
 
+// Array for the questions that the user will input
 const questions = [
     {
         type:'input',
@@ -128,6 +130,7 @@ const questions = [
     }
 ];
 
+// function to write the README file
 const createFile = fileContent => {
     return new Promise((resolve, reject) => {
         fs.writeFile('./new-README.md', fileContent, error => {
@@ -143,13 +146,14 @@ const createFile = fileContent => {
     });
 };
 
+// prompts the questions and stores what the user inputs in order to generate
 const init = () => {
     return inquirer.prompt(questions)
     .then(readmeContent => {
         return readmeContent;
     })
 }
-
+// calls the function
 init()
 .then(readmeContent => {
     console.log(readmeContent);
