@@ -1,5 +1,5 @@
 
-    # Kendall's README Generator
+    # Kendalls ReadMe Generator
 
     [![License Badge](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/MIT/)
 
@@ -16,17 +16,17 @@
     ## Description
     <a name='description'></a>
 
-    This project is a README file generator that helps gives developers a simpler way of creating README files for their projects all from their command-line.
+    This is a README markdown file generator, which gives developers a simpler way of creating their readme files. 
 
     ## Installation
     <a name='installation'></a>
 
-    To install, copy the SSH from GitHub, then use git clone in your command line to clone it to your device. 
+    Copy SSH code from GitHub, clone onto your device.
 
     ## Usage
     <a name='usage'></a>
 
-    A user will use this to simplify creating README files. To actually use this, you will go to the cloned files on your device. Then you will enter node index.js into your command-line and answer each question about your application. Always double check that you are in the correct directory first!
+    To use this application, you would open up your command-line, make sure you're in the correct directory that includes the cloned files, then enter node index.js. It will then ask you a handful questions about your project. Once you get through all of the questions, it will generate a README.md file with your answers generated into it. 
 
     ## License
     <a name='license'></a>
@@ -36,12 +36,12 @@
     ## Contributing
     <a name='contributing'></a>
 
-    If you would like to contribute to this project, please clone the repo, make edits on your own new branch, then submit a pull request for my approval. 
+    Please clone, then work within your own branch, finally you may submit a pull request that I can then review. 
 
     ## Tests
     <a name='test'></a>
 
-    In order to test the application, you can first input testing answers in for each question. Then you can open the generated readme markdown file and see if it worked! 
+    You may test this application by using test answers for each questions to ensure the application is working properly. Once your test README file is generated you can then go back and answer the questions with your project info. 
 
     ## Questions
     <a name='questions'></a>
